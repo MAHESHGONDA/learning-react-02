@@ -1,10 +1,11 @@
 import React from 'react'
 import UseStateBasic from './components/usestate/UseStateBasic'
+import UseStateArray from './components/usestate/UseStateArray'
 function App() {
   return (
     <React.Fragment>
       <div className='container'>
-        <UseStateBasic></UseStateBasic>
+        <UseStateArray></UseStateArray>
       </div>
     </React.Fragment>
   )
