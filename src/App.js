@@ -1,9 +1,12 @@
 import React from 'react'
+import UseStateBasic from './components/usestate/UseStateBasic'
 function App() {
   return (
-    <div className='container'>
-      <h2>Advanced Tutorial</h2>
-    </div>
+    <React.Fragment>
+      <div className='container'>
+        <UseStateBasic></UseStateBasic>
+      </div>
+    </React.Fragment>
   )
 }
 
