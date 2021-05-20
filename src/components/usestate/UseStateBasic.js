@@ -1,11 +1,21 @@
 import React, { useState } from 'react'
 
+// Hook starts with use
+// component must be uppercase
+// Hook must be invoked inside function/component body
+// don't call hooks conditonally
+
 const UseStateBasic = () => {
   const [text, setText] = useState('Random Title')
 
   const clickHandler = () => {
     // click handler
-    setText('hello world')
+
+    if (text === 'Random Title') {
+      setText('Hello World')
+    } else {
+      setText('Random Title')
+    }
   }
 
   return (
