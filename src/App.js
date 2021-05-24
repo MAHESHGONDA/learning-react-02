@@ -1,13 +1,13 @@
 import React from 'react'
 import UseStateBasic from './components/usestate/UseStateBasic'
 import UseStateArray from './components/usestate/UseStateArray'
-import UseEffectBasic from './components/useeffect/UseEffectBasic'
+import UseEffectWithDependency from './components/useeffect/UseEffectWithDependency'
 
 function App() {
   return (
     <React.Fragment>
       <div className='container'>
-        <UseEffectBasic></UseEffectBasic>
+        <UseEffectWithDependency></UseEffectWithDependency>
       </div>
     </React.Fragment>
   )
